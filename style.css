@@ -21,7 +21,7 @@ body{
 
 .mainleft{
     
-    width: 450px;
+    width: 500px;
     height: auto;
 }
 
@@ -95,12 +95,5 @@ body{
 
 .liste4{
     list-style: none;
-}
 
-.gizle{
-    transform: translate(-100);
-}
-
-.goster{
-    transform: translate(0);
 }
