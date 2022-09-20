@@ -8,6 +8,17 @@ const Liste3 = document.querySelector(".liste3")
 const Liste4 = document.querySelector(".liste4")
 
 
+const saat = new Date().getHours();
+
+if( saat < 17){
+    document.getElementById("selamlaJs").innerHTML = "İyi günler ☕️";
+}else if(saat > 17){
+    document.getElementById("selamlaJs").innerHTML = "İyi akşamlar ☕️";
+}
+else{
+    console.log("hata")
+}
+
 
 Btns.addEventListener("click", function(){
     console.log("hello",Liste.classList)
